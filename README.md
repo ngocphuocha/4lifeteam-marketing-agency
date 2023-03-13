@@ -1,17 +1,13 @@
-# 4lifeteam-marketing-agency
-marketing-agency landing page
-## anh em lưu ý đặt tên branch
+# PhoLifeteam marketing agency HTML CSS
 
+1.Rule for branch name
 
-##Syntax: feature/ten-anh-em/task-name 
-###ví dụ một nhánh riêng của anh em là feature/phuoctn/logingit  hoac fixbug/phuoctn/login
+```javascript
+git checkout -b feature/phuoctn/user-login
+```
 
-tinh naang thi feature, sua bug thi fixbug, 
+2.Rule for commit message
 
-### rule commiit message
-
-#synxtax [feature][ten-anh-em][anh em lam xong cai gi (tinh nang)]
-
-## vi du
-
-###git commit -m "[feature][phuoctn][add user login]"
+```javascript
+git commit -m "Your task completed"
+```
