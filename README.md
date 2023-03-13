@@ -4,7 +4,7 @@ marketing-agency landing page
 
 
 ##Syntax: feature/ten-anh-em/task-name 
-###ví dụ một nhánh riêng của anh em là feature/phuoctn/login hoac fixbug/phuoctn/login
+###ví dụ một nhánh riêng của anh em là feature/phuoctn/logingit  hoac fixbug/phuoctn/login
 
 tinh naang thi feature, sua bug thi fixbug, 
 
