@@ -1,68 +1,75 @@
-.all{
-    margin:10px auto;
+.all {
+    margin: 10px auto;
 
     flex-direction: column;
     align-content: space-around;
     word-wrap: break-word;
-  
+
 }
 
 .styleH {
-  
-  
- 
-   
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 60px;
-line-height: 70px;
-color: #121116;}
-
-.styleP { 
-
-margin-top: 1% ;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 30px;
 
 
-color: #605D6C;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    color: #121116;
+}
+
+.styleP {
+
+    margin-top: 1%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+
+    color: #605D6C;
 }
 
 .button {
-margin-top: 1%;
-        background-color: #7557FF;  
-        color: white;
-        padding: 15px 35px;
-        text-align: center;
-        text-decoration: none;
-   
-        font-size: 16px;
-        
+    margin-top: 1%;
+    background-color: #7557FF;
+    color: white;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
 
-border-radius: 6px ;
+    font-size: 16px;
 
-max-width: 80px;
+
+    border-radius: 6px;
+
+    max-width: 80px;
 
 }
-.circle{
-    
-    width:  570px;
-    height: 570px;
-    border-radius: 50%  ;
+
+.circle {
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
     background: #FFFBEF;
-float:right;
+    float: right;
 }
 
-@media only screen and (max-width:778px ){
-    .all{
-  
-word-break: break-all;
+@media only screen and (max-width:900px) {
+    .all {
+        word-break: break-all;
+        display: block;
     }
     
+    .image-circle {
+        display: block;
+    
+    }  
 }
-.container1{
-    padding: 100px;}
+
+.container1 {
+    padding: 100px;
+}
