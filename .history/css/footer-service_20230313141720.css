@@ -1,0 +1,23 @@
+
+
+.background-footer{
+    width: 100%;
+    background: #FFFBEF;
+}
+
+.background-footer .footer-text{
+    margin-left: 135px;
+}
+
+.background-footer .list{
+   float: right;
+}
+
+.background-footer .list ul{
+   display: flex;
+   list-style: none;
+ }
+ .background-footer .list ul li{
+    padding-left: 30px;
+  }
+

@@ -1,0 +1,31 @@
+
+
+.background-footer{
+    width: 100%;
+    background: #FFFBEF;
+}
+
+.background-footer .footer-text{
+    margin-left: 135px;
+}
+
+
+
+.background-footer .list-right{
+   float: right;
+}
+
+.background-footer .list-right ul{
+   display: flex;
+   list-style: none;
+   margin-right: 135px;
+ }
+ .background-footer .list-right ul li{
+    padding-left: 30px;
+  }
+
+  .background-footer .navbar{
+    float: left;
+    border-bottom: 3px solid rgba(5, 5, 5, 0.938);
+    width: 70%px;
+ }
