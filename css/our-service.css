@@ -1,1 +1,80 @@
 /* Nhi */
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 470px;
+  line-height: 70px;
+  font-size: 60px;
+
+  text-align: center;
+
+  color: #121116;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: -16px;
+
+  text-align: center;
+
+  color: #605d6c;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0 135px;
+}
+
+.box {
+  width: 370px;
+  background: #ffff;
+  box-shadow: 0px 20px 70px rgba(18, 17, 22, 0.05);
+  border-radius: 12px;
+}
+
+/* .img-box {
+  width: 195px;
+  height: 164px;
+} */
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-wrapper img {
+  width: 195px;
+  height: 164px;
+  margin: 48px 70px;
+}
+
+.text-image {
+  font-family: "Poppins";
+  font-style: normal;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.text-image p1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+
+  color: #121116;
+}
+
+.text-image p {
+  padding-bottom: 48px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
