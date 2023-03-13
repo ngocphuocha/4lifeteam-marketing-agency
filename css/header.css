@@ -8,8 +8,10 @@
 
 
 body {
-    font-family: 'Poppins', sans-serif;
-    font-style : normal;
+    font-family   : 'Poppins', sans-serif;
+    font-style    : normal;
+    /* overflow-y : hidden;
+    overflow-x    : hidden; */
 }
 
 
@@ -155,8 +157,8 @@ body {
     }
 
     .body__right>img {
-        width : 100vw;
-        height: 19rem;
+        width : 38rem;
+        height: 20rem;
     }
 
     .large__text {
@@ -208,6 +210,11 @@ body {
         height   : 3rem;
         font-size: 1.3rem;
     }
+
+    .body__right>img {
+        width : 20rem;
+        height: 20rem;
+    }
 }
 
 @media (min-width: 800px) and (max-width: 1180px) {
@@ -215,6 +222,16 @@ body {
         display       : flex;
         flex-direction: column;
         margin-top    : 2rem;
+    }
+
+    .navbar {
+        justify-content: space-evenly;
+    }
+
+    .navbar__item {
+        position : relative;
+        left     : 34px;
+        font-size: 20px;
     }
 
     .large__text {
