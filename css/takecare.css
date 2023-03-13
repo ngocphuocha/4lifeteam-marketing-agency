@@ -1,93 +1,85 @@
 /*HieuDinh*/
-.container{
-    margin:100px auto;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    overflow-x: hidden;
-
+.container {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-x: hidden;
 }
-.tron{
-    margin-left: 10%;
-    width:  570px;
-    height: 570px;
-    border-radius: 50%  ;
-    font-size: 18px;
-    overflow: hidden;
-    background: #FFFBEF;
+.tron {
+  margin-left: 10%;
+  width: 570px;
+  height: 570px;
+  border-radius: 50%;
+  font-size: 18px;
+  overflow: hidden;
+  background: #fffbef;
 }
 .title {
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 70px;
-    color: #121116;
-
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+  color: #121116;
 }
 
 .heading {
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    color: #605D6C;
-    
-
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #605d6c;
 }
 
-.content-info{
-    margin:10px auto;
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;
-    word-break: break-all;
+.content-info {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  word-break: break-all;
 }
 
-.content-box{
-    display: flex;
-    gap: 40px;
-    align-items: center;
-    margin-top: 20px;
+.content-box {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.circle{
-    width:  54px;
-    height: 54px;
-    border-radius: 50%  ;
-    line-height: 58px;
-    text-align: center;
+.circle {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  line-height: 58px;
+  text-align: center;
 }
 
-.content{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 30px;
+.content {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
 
-
-
-
-color: #121116;
+  color: #121116;
 }
 
-.one{
-    background: #FFC631;
+.one {
+  background: #ffc631;
 }
-.two{
-    background: #FF794E;
+.two {
+  background: #ff794e;
 }
-.three{
-    background: #405BEC;
+.three {
+  background: #405bec;
 }
 
 @media only screen and (max-width: 375px) {
-    .content-info {
-        font-size: 20px;
-        word-break: break-all;
-    }
+  .content-info {
+    font-size: 20px;
+    word-break: break-all;
+  }
 }
