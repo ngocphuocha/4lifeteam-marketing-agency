@@ -1,0 +1,19 @@
+
+
+.background-footer{
+    width: 100%;
+    background: #FFFBEF;
+}
+
+.background-footer .footer-text{
+    margin-left: 135px;
+}
+
+.background-footer .list{
+   float: right;
+}
+
+.background-footer .footer-text .list ul{
+   display: flex;
+ }
+

@@ -1,0 +1,30 @@
+
+
+.background-footer{
+    width: 100%;
+    background: #FFFBEF;
+}
+
+.background-footer .footer-text{
+    margin-left: 135px;
+}
+
+.background-footer .navbar{
+    float: left;
+    border-bottom: 1px solid rgba(192, 192, 3, 0.938);
+    width: 100px;
+ }
+
+.background-footer .list-right{
+   float: right;
+}
+
+.background-footer .list-right ul{
+   display: flex;
+   list-style: none;
+   margin-right: 135px;
+ }
+ .background-footer .list-right ul li{
+    padding-left: 30px;
+  }
+

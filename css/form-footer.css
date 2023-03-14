@@ -1,0 +1,20 @@
+@media only screen and (min-width: 1160px) {
+  .form-footer {
+    /* border: 1px solid #73ad21; */
+    width: 100%;
+    position: relative;
+  }
+
+  .contract-container {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+  }
+  .background-footer {
+    position: absolute;
+    z-index: -1;
+    top: 200px;
+    left: 0px;
+    right: 0px;
+  }
+}

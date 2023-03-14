@@ -1,0 +1,38 @@
+
+
+.background-footer{
+    width: 100%;
+    background: #FFFBEF;
+}
+
+.background-footer .footer-text{
+    margin-left: 135px;
+}
+
+.background-footer .list-left{
+    float: left;
+    border: 2px solid #0000001a;
+    padding: 10px;
+    margin-right: 20%;
+    width: 25vw;
+    height: 70vh;
+    overflow: hidden;
+    box-shadow: 15px 15px 15px rgba(219, 213, 213, 0.2), 
+    -15px 15px 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background: none;
+ }
+
+.background-footer .list-right{
+   float: right;
+}
+
+.background-footer .list-right ul{
+   display: flex;
+   list-style: none;
+   margin-right: 135px;
+ }
+ .background-footer .list-right ul li{
+    padding-left: 30px;
+  }
+
