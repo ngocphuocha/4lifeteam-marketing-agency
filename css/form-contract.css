@@ -75,6 +75,7 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 100%;
+    margin-bottom: 20px;
   }
   .contract-intro {
     margin: auto;
@@ -110,6 +111,10 @@ body {
   }
   .contract-form {
     width: 100%;
+  }
+
+  .contract-form form {
+    border-radius: 0;
   }
   .contract-container form input {
     width: inherit;
