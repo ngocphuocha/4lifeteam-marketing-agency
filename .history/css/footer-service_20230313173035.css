@@ -1,0 +1,65 @@
+/*Nguyen Thanh*/
+  .background-footer{
+    background: #FFFBEF;
+    padding: 232px 0px;
+  }
+  
+  .background-footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 135px 15px;
+    border-bottom: 2px solid rgba(5, 5, 5, 0.938);
+    /* margin-bottom: 20px; */
+    margin: 0px 0px 20px 0px;
+  }
+
+  .background-footer .container .footer-left .span-1{
+    font-size: 24px;
+  }
+  .background-footer .container .footer-left .span-2{
+    font-weight: 700px;
+    font-size: 24px;
+    color: blue;
+  }
+
+  .background-footer .container .footer-right span{
+    padding: 0px 15px;
+  }
+
+  .background-footer .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 135px;
+  }
+
+  .background-footer .footer .text-right{
+    padding-right: 15px;
+  }
+  .background-footer .footer .text-right span{
+    padding: 0px 15px;
+    font-size: 18px;
+  }
+  .background-footer .footer .text-right i{
+    padding-left: 15px;
+    /* padding: 0px 15px 0px 0px ; */
+    font-size: 36px;
+  }
+
+  @media (min-width: 600px) and (max-width: 1080px) {
+    .background-footer{
+        display: flex;
+        font-size: 1.5vmax;
+    }
+    .background-footer .footer .text-right i{
+        /* display: flex;
+        font-size: 1vmax;
+        margin: 0 0.5vmax; */
+    }
+
+    .background-footer .container .footer-left span{
+        /* display: flex;
+        margin: 0 0.5px; */
+      }
+  }
